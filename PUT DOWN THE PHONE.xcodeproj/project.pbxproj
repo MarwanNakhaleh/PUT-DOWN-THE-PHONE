@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		592056802DE9C47900A3FEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592056612DE9C47800A3FEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592056682DE9C47800A3FEAB;
+			remoteInfo = "PUT DOWN THE PHONE";
+		};
+		5920568A2DE9C47900A3FEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592056612DE9C47800A3FEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592056682DE9C47800A3FEAB;
+			remoteInfo = "PUT DOWN THE PHONE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		592056692DE9C47800A3FEAB /* PUT DOWN THE PHONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PUT DOWN THE PHONE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5920567F2DE9C47900A3FEAB /* PUT DOWN THE PHONETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PUT DOWN THE PHONETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592056892DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PUT DOWN THE PHONEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		592056912DE9C47900A3FEAB /* Exceptions for "PUT DOWN THE PHONE" folder in "PUT DOWN THE PHONE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5920566B2DE9C47800A3FEAB /* PUT DOWN THE PHONE */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				592056912DE9C47900A3FEAB /* Exceptions for "PUT DOWN THE PHONE" folder in "PUT DOWN THE PHONE" target */,
+			);
+			path = "PUT DOWN THE PHONE";
+			sourceTree = "<group>";
+		};
+		592056822DE9C47900A3FEAB /* PUT DOWN THE PHONETests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PUT DOWN THE PHONETests";
+			sourceTree = "<group>";
+		};
+		5920568C2DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PUT DOWN THE PHONEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592056662DE9C47800A3FEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5920567C2DE9C47900A3FEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592056862DE9C47900A3FEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592056602DE9C47800A3FEAB = {
+			isa = PBXGroup;
+			children = (
+				5920566B2DE9C47800A3FEAB /* PUT DOWN THE PHONE */,
+				592056822DE9C47900A3FEAB /* PUT DOWN THE PHONETests */,
+				5920568C2DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */,
+				5920566A2DE9C47800A3FEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5920566A2DE9C47800A3FEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592056692DE9C47800A3FEAB /* PUT DOWN THE PHONE.app */,
+				5920567F2DE9C47900A3FEAB /* PUT DOWN THE PHONETests.xctest */,
+				592056892DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592056922DE9C47900A3FEAB /* Build configuration list for PBXNativeTarget "PUT DOWN THE PHONE" */;
+			buildPhases = (
+				592056652DE9C47800A3FEAB /* Sources */,
+				592056662DE9C47800A3FEAB /* Frameworks */,
+				592056672DE9C47800A3FEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5920566B2DE9C47800A3FEAB /* PUT DOWN THE PHONE */,
+			);
+			name = "PUT DOWN THE PHONE";
+			packageProductDependencies = (
+			);
+			productName = "PUT DOWN THE PHONE";
+			productReference = 592056692DE9C47800A3FEAB /* PUT DOWN THE PHONE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5920567E2DE9C47900A3FEAB /* PUT DOWN THE PHONETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592056972DE9C47900A3FEAB /* Build configuration list for PBXNativeTarget "PUT DOWN THE PHONETests" */;
+			buildPhases = (
+				5920567B2DE9C47900A3FEAB /* Sources */,
+				5920567C2DE9C47900A3FEAB /* Frameworks */,
+				5920567D2DE9C47900A3FEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592056812DE9C47900A3FEAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				592056822DE9C47900A3FEAB /* PUT DOWN THE PHONETests */,
+			);
+			name = "PUT DOWN THE PHONETests";
+			packageProductDependencies = (
+			);
+			productName = "PUT DOWN THE PHONETests";
+			productReference = 5920567F2DE9C47900A3FEAB /* PUT DOWN THE PHONETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		592056882DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5920569A2DE9C47900A3FEAB /* Build configuration list for PBXNativeTarget "PUT DOWN THE PHONEUITests" */;
+			buildPhases = (
+				592056852DE9C47900A3FEAB /* Sources */,
+				592056862DE9C47900A3FEAB /* Frameworks */,
+				592056872DE9C47900A3FEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5920568B2DE9C47900A3FEAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5920568C2DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */,
+			);
+			name = "PUT DOWN THE PHONEUITests";
+			packageProductDependencies = (
+			);
+			productName = "PUT DOWN THE PHONEUITests";
+			productReference = 592056892DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592056612DE9C47800A3FEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					592056682DE9C47800A3FEAB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					5920567E2DE9C47900A3FEAB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 592056682DE9C47800A3FEAB;
+					};
+					592056882DE9C47900A3FEAB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 592056682DE9C47800A3FEAB;
+					};
+				};
+			};
+			buildConfigurationList = 592056642DE9C47800A3FEAB /* Build configuration list for PBXProject "PUT DOWN THE PHONE" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 592056602DE9C47800A3FEAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5920566A2DE9C47800A3FEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */,
+				5920567E2DE9C47900A3FEAB /* PUT DOWN THE PHONETests */,
+				592056882DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592056672DE9C47800A3FEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5920567D2DE9C47900A3FEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592056872DE9C47900A3FEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592056652DE9C47800A3FEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5920567B2DE9C47900A3FEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592056852DE9C47900A3FEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592056812DE9C47900A3FEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */;
+			targetProxy = 592056802DE9C47900A3FEAB /* PBXContainerItemProxy */;
+		};
+		5920568B2DE9C47900A3FEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */;
+			targetProxy = 5920568A2DE9C47900A3FEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		592056932DE9C47900A3FEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PUT DOWN THE PHONE/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		592056942DE9C47900A3FEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PUT DOWN THE PHONE/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		592056952DE9C47900A3FEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		592056962DE9C47900A3FEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592056982DE9C47900A3FEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PUT DOWN THE PHONE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PUT DOWN THE PHONE";
+			};
+			name = Debug;
+		};
+		592056992DE9C47900A3FEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PUT DOWN THE PHONE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PUT DOWN THE PHONE";
+			};
+			name = Release;
+		};
+		5920569B2DE9C47900A3FEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PUT DOWN THE PHONE";
+			};
+			name = Debug;
+		};
+		5920569C2DE9C47900A3FEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PUT DOWN THE PHONE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592056642DE9C47800A3FEAB /* Build configuration list for PBXProject "PUT DOWN THE PHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592056952DE9C47900A3FEAB /* Debug */,
+				592056962DE9C47900A3FEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592056922DE9C47900A3FEAB /* Build configuration list for PBXNativeTarget "PUT DOWN THE PHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592056932DE9C47900A3FEAB /* Debug */,
+				592056942DE9C47900A3FEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592056972DE9C47900A3FEAB /* Build configuration list for PBXNativeTarget "PUT DOWN THE PHONETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592056982DE9C47900A3FEAB /* Debug */,
+				592056992DE9C47900A3FEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5920569A2DE9C47900A3FEAB /* Build configuration list for PBXNativeTarget "PUT DOWN THE PHONEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5920569B2DE9C47900A3FEAB /* Debug */,
+				5920569C2DE9C47900A3FEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592056612DE9C47800A3FEAB /* Project object */;
+}
