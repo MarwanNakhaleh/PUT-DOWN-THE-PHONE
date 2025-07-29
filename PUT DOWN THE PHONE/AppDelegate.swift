@@ -6,15 +6,40 @@
 //
 
 import UIKit
+import UserNotifications
+import FamilyControls
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+    let settings = SettingsModel()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UNUserNotificationCenter.current().delegate = self
+        requestNotificationPermissions()
+        DeviceActivityScheduler.shared.requestAuthorization {
+            authorized in
+            if !authorized {
+                print("Screen Time / Family Controls permission denied")
+            }
+        }
+        DeviceActivityScheduler.shared.apply(settings: settings)
         return true
+    }
+    
+    private func requestNotificationPermissions() {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
+        {
+            granted, error in
+            if !granted {
+                print("Notifications permission denied")
+            }
+        }
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
+    ) {
+        completionHandler([.banner, .sound])
     }
 
     // MARK: UISceneSession Lifecycle

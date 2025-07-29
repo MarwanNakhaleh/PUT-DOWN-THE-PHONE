@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		592056A42DE9D30F00A3FEAB /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592056A32DE9D30E00A3FEAB /* DeviceActivity.framework */; };
+		592056AC2DE9D30F00A3FEAB /* PhoneUsageMonitorExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 592056A12DE9D30E00A3FEAB /* PhoneUsageMonitorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		592056802DE9C47900A3FEAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +26,35 @@
 			remoteGlobalIDString = 592056682DE9C47800A3FEAB;
 			remoteInfo = "PUT DOWN THE PHONE";
 		};
+		592056AA2DE9D30F00A3FEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592056612DE9C47800A3FEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592056A02DE9D30E00A3FEAB;
+			remoteInfo = PhoneUsageMonitorExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		592056B12DE9D30F00A3FEAB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				592056AC2DE9D30F00A3FEAB /* PhoneUsageMonitorExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		592056692DE9C47800A3FEAB /* PUT DOWN THE PHONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PUT DOWN THE PHONE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5920567F2DE9C47900A3FEAB /* PUT DOWN THE PHONETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PUT DOWN THE PHONETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		592056892DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PUT DOWN THE PHONEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592056A12DE9D30E00A3FEAB /* PhoneUsageMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhoneUsageMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		592056A32DE9D30E00A3FEAB /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +64,13 @@
 				Info.plist,
 			);
 			target = 592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */;
+		};
+		592056B02DE9D30F00A3FEAB /* Exceptions for "PhoneUsageMonitorExtension" folder in "PhoneUsageMonitorExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 592056A02DE9D30E00A3FEAB /* PhoneUsageMonitorExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -56,6 +91,14 @@
 		5920568C2DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "PUT DOWN THE PHONEUITests";
+			sourceTree = "<group>";
+		};
+		592056A52DE9D30F00A3FEAB /* PhoneUsageMonitorExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				592056B02DE9D30F00A3FEAB /* Exceptions for "PhoneUsageMonitorExtension" folder in "PhoneUsageMonitorExtension" target */,
+			);
+			path = PhoneUsageMonitorExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +125,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5920569E2DE9D30E00A3FEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592056A42DE9D30F00A3FEAB /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +142,8 @@
 				5920566B2DE9C47800A3FEAB /* PUT DOWN THE PHONE */,
 				592056822DE9C47900A3FEAB /* PUT DOWN THE PHONETests */,
 				5920568C2DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */,
+				592056A52DE9D30F00A3FEAB /* PhoneUsageMonitorExtension */,
+				592056A22DE9D30E00A3FEAB /* Frameworks */,
 				5920566A2DE9C47800A3FEAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +154,17 @@
 				592056692DE9C47800A3FEAB /* PUT DOWN THE PHONE.app */,
 				5920567F2DE9C47900A3FEAB /* PUT DOWN THE PHONETests.xctest */,
 				592056892DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests.xctest */,
+				592056A12DE9D30E00A3FEAB /* PhoneUsageMonitorExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		592056A22DE9D30E00A3FEAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				592056A32DE9D30E00A3FEAB /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,10 +177,12 @@
 				592056652DE9C47800A3FEAB /* Sources */,
 				592056662DE9C47800A3FEAB /* Frameworks */,
 				592056672DE9C47800A3FEAB /* Resources */,
+				592056B12DE9D30F00A3FEAB /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				592056AB2DE9D30F00A3FEAB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				5920566B2DE9C47800A3FEAB /* PUT DOWN THE PHONE */,
@@ -176,6 +240,28 @@
 			productReference = 592056892DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		592056A02DE9D30E00A3FEAB /* PhoneUsageMonitorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592056AD2DE9D30F00A3FEAB /* Build configuration list for PBXNativeTarget "PhoneUsageMonitorExtension" */;
+			buildPhases = (
+				5920569D2DE9D30E00A3FEAB /* Sources */,
+				5920569E2DE9D30E00A3FEAB /* Frameworks */,
+				5920569F2DE9D30E00A3FEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				592056A52DE9D30F00A3FEAB /* PhoneUsageMonitorExtension */,
+			);
+			name = PhoneUsageMonitorExtension;
+			packageProductDependencies = (
+			);
+			productName = PhoneUsageMonitorExtension;
+			productReference = 592056A12DE9D30E00A3FEAB /* PhoneUsageMonitorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +283,9 @@
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = 592056682DE9C47800A3FEAB;
 					};
+					592056A02DE9D30E00A3FEAB = {
+						CreatedOnToolsVersion = 16.3;
+					};
 				};
 			};
 			buildConfigurationList = 592056642DE9C47800A3FEAB /* Build configuration list for PBXProject "PUT DOWN THE PHONE" */;
@@ -216,6 +305,7 @@
 				592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */,
 				5920567E2DE9C47900A3FEAB /* PUT DOWN THE PHONETests */,
 				592056882DE9C47900A3FEAB /* PUT DOWN THE PHONEUITests */,
+				592056A02DE9D30E00A3FEAB /* PhoneUsageMonitorExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +326,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		592056872DE9C47900A3FEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5920569F2DE9D30E00A3FEAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +363,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5920569D2DE9D30E00A3FEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -279,6 +383,11 @@
 			target = 592056682DE9C47800A3FEAB /* PUT DOWN THE PHONE */;
 			targetProxy = 5920568A2DE9C47900A3FEAB /* PBXContainerItemProxy */;
 		};
+		592056AB2DE9D30F00A3FEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592056A02DE9D30E00A3FEAB /* PhoneUsageMonitorExtension */;
+			targetProxy = 592056AA2DE9D30F00A3FEAB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -287,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PUT DOWN THE PHONE/PUT DOWN THE PHONE.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
@@ -315,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PUT DOWN THE PHONE/PUT DOWN THE PHONE.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
@@ -531,6 +642,58 @@
 			};
 			name = Release;
 		};
+		592056AE2DE9D30F00A3FEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhoneUsageMonitorExtension/PhoneUsageMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneUsageMonitorExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhoneUsageMonitorExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONE.PhoneUsageMonitorExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		592056AF2DE9D30F00A3FEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhoneUsageMonitorExtension/PhoneUsageMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MF4Q85LAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneUsageMonitorExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhoneUsageMonitorExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "branson.solutions.PUT-DOWN-THE-PHONE.PhoneUsageMonitorExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,6 +729,15 @@
 			buildConfigurations = (
 				5920569B2DE9C47900A3FEAB /* Debug */,
 				5920569C2DE9C47900A3FEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592056AD2DE9D30F00A3FEAB /* Build configuration list for PBXNativeTarget "PhoneUsageMonitorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592056AE2DE9D30F00A3FEAB /* Debug */,
+				592056AF2DE9D30F00A3FEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
