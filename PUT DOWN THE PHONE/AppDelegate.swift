@@ -15,13 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         UNUserNotificationCenter.current().delegate = self
         requestNotificationPermissions()
-        DeviceActivityScheduler.shared.requestAuthorization {
-            authorized in
-            if !authorized {
-                print("Screen Time / Family Controls permission denied")
-            }
+
+        Task { @MainActor in
+        do {
+            try await AuthorizationCenter.shared.requestAuthorization(for: .individual)
+            print("✅ Screen-Time authorization succeeded")
+
+            DeviceActivityScheduler.shared.apply(settings: settings)
+        } catch {
+            print("❌ Screen-Time authorization failed:", error)
         }
-        DeviceActivityScheduler.shared.apply(settings: settings)
+    }
         return true
     }
     

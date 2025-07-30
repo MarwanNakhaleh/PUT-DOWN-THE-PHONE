@@ -6,7 +6,8 @@
 //
 
 import DeviceActivity
-
+import UserNotifications
+import Foundation
 // Optionally override any of the functions below.
 // Make sure that your class name matches the NSExtensionPrincipalClass in your Info.plist.
 class DeviceActivityMonitorExtension: DeviceActivityMonitor {
@@ -24,8 +25,43 @@ class DeviceActivityMonitorExtension: DeviceActivityMonitor {
     
     override func eventDidReachThreshold(_ event: DeviceActivityEvent.Name, activity: DeviceActivityName) {
         super.eventDidReachThreshold(event, activity: activity)
-        
-        // Handle the event reaching its threshold.
+        // When the user has used the device for the configured `intervalMinutes`
+        // threshold, fire a local notification with a random angry phrase.
+
+        // Fetch the latest angry phrases array – the main app stores this in
+        // UserDefaults (simple but effective for an app-group-less sample).
+        let dfPhrases: [String] = [
+            "Hey, it's time to put your phone down.",
+            "Seriously, stop scrolling.",
+            "PUT. IT. DOWN.",
+            "You're still on your phone? Knock it off.",
+            "Keep using your phone if you're a dumbass.",
+            "That's it, go to sleep!"
+        ]
+
+        let phrases = UserDefaults.standard.stringArray(forKey: "angryReminders.angerPhrases") ?? dfPhrases
+        guard let body = phrases.randomElement() else { return }
+
+        // Craft the notification content.
+        let content = UNMutableNotificationContent()
+        content.title = "PUT DOWN THE PHONE"
+        content.body  = body
+        content.sound = UNNotificationSound.default
+
+        // Deliver immediately.
+        let request = UNNotificationRequest(
+            identifier: "angryRemind-\(UUID().uuidString)",
+            content: content,
+            trigger: nil // immediately
+        )
+
+        UNUserNotificationCenter.current().add(request) { error in
+            if let error = error {
+                print("⚠️ Failed to schedule angry reminder notification:", error)
+            } else {
+                print("📣 Angry reminder notification scheduled → \(body)")
+            }
+        }
     }
     
     override func intervalWillStartWarning(for activity: DeviceActivityName) {

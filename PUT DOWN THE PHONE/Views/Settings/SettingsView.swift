@@ -23,7 +23,7 @@ struct SettingsView: View {
 
                 SaveButtonSection()
             }
-            .navigationTitle("Angry Reminder Settings")
+            .navigationTitle("Settings")
         }
     }
 }

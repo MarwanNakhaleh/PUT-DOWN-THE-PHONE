@@ -27,7 +27,7 @@ class DeviceActivityScheduler {
           completion(approved)
         }
       } catch {
-        print("❌ Failed to obtain Screen Time / Family Controls authorisation:", error)
+        print("❌ Failed to obtain Screen Time / Family Controls authorization:", error)
         DispatchQueue.main.async {
           completion(false)
         }
@@ -61,7 +61,7 @@ class DeviceActivityScheduler {
       try center.startMonitoring(
         Activity.phoneUse,
         during: schedule,
-        events: [DeviceActivityEvent.Name("fiveMinUsage"): event]
+        events: [DeviceActivityEvent.Name("usageInterval"): event]
       )
       print("✅ Started phone-use monitoring @ \(hour):\(minute), every \(intervalMinutes)m")
     } catch {
